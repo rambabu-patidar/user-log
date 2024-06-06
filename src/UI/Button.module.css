@@ -1,0 +1,16 @@
+.button {
+  background-color: gold;
+  border: none;
+  outline: none;
+  padding: 1rem 3rem;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+  .button {
+    padding: 1rem 0;
+    width: 100%;
+  }
+}
